@@ -131,6 +131,30 @@ header{
             border-radius: 5px;
         }
     }
+    
+}
+.notfound{
+    background-color: red;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 50px;
+    margin: 0 auto;
+    width: 25%;
+    height: 50px;
+    animation: shake 300ms linear;
+    display: none;
+}
+@keyframes shake {
+    0%{
+        transform: translateX(50px) ;
+    }
+    50%{
+        transform: translateX(-50px);
+    }
+    100%{
+        transform: translateX(0);
+    }
 }
 // .contact{
 //     position: fixed;

@@ -123,4 +123,42 @@ header .buttom-header #submit-btn {
   color: white;
   padding: 4px;
   border-radius: 5px;
+}
+
+.notfound {
+  background-color: red;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 50px;
+  margin: 0 auto;
+  width: 25%;
+  height: 50px;
+  -webkit-animation: shake 300ms linear;
+          animation: shake 300ms linear;
+  display: none;
+}
+
+@-webkit-keyframes shake {
+  0% {
+    transform: translateX(50px);
+  }
+  50% {
+    transform: translateX(-50px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(50px);
+  }
+  50% {
+    transform: translateX(-50px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }/*# sourceMappingURL=style.css.map */
